@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 @SpringBootApplication
 public class SpringGraphqlApplication {
 
-    private ProductRepository productRepository;
+    private final ProductRepository productRepository;
 
     public SpringGraphqlApplication(ProductRepository productRepository) {
         this.productRepository = productRepository;
